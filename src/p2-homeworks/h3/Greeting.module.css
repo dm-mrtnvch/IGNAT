@@ -1,0 +1,79 @@
+.someClass {
+
+}
+
+.errorFalse {
+    border: 1px solid red;
+}
+
+input {
+    margin: 0 10px 0 10px;
+    border-radius: 5px;
+}
+
+/*.errorText{*/
+/*    display: inline-block;*/
+/*    padding: 3px;*/
+/*    background-color: red;*/
+/*    color: black;*/
+/*    margin-right: 10px;*/
+/*}*/
+
+
+.errorText {
+    padding: 4px;
+    position: relative;
+    background: rgb(219, 37, 10);
+    border-radius: 10px;
+    margin: 0 10px;
+    color: white;
+    font-size: 14px;
+}
+
+.errorText:before {
+    content: "";
+    border: solid transparent;
+    position: absolute;
+    right: 99%;
+    top: 9px;
+    border-right-color: rgb(219, 37, 10);
+    border-width: 7px;
+    margin-top: -1px;
+}
+
+.totalUsers {
+    display: inline-block;
+    margin: 10px;
+}
+
+.displayNone {
+    display: none;
+}
+
+.button {
+    color: #fff;
+    text-decoration: none;
+    user-select: none;
+    background: rgb(219, 37, 10);
+    padding: .5em 1.0em;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background: rgb(232, 95, 76);
+}
+
+.button:active {
+    background: rgb(152, 15, 0);
+}
+
+.content {
+    text-align: center;
+    border: 1px solid #c1c1c1;
+    border-radius: 10px;
+    width: 300px;
+    padding: 5px;
+    margin: 0 auto;
+}
